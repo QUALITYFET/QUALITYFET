@@ -4,12 +4,145 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="231" class="">
-    <defs>
-        <style/>
-    </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.field.language.details,.field.language.details small{display:flex;justify-content:space-between}.field.language.details small{color:#666;text-align:right}.field.language.details small&gt;*,.field.language.details&gt;*,.row section{flex:1 1 0}.field.language.details small&gt;:not(:last-child){margin-right:6px}.chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}.starlist{padding-left:28px;width:460px}.starlist&gt;.count,.starlist&gt;.description{margin-left:32px}.starlist&gt;.count{font-size:12px;color:#666}.starlist .repositories{margin-left:-5px;margin-bottom:20px}.starlist .languages{margin-top:6px;padding-left:13px}.starlist .languages svg.bar{margin-left:18px}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}</style>
-    <style/>
+## ➡️ Available options
+
+<!--options-->
+<table>
+  <tr>
+    <td align="center" nowrap="nowrap">Option</i></td><td align="center" nowrap="nowrap">Description</td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><h4><code>plugin_reactions</code></h4></td>
+    <td rowspan="2"><p>Enable reactions plugin</p>
+<img width="900" height="1" alt=""></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><b>type:</b> <code>boolean</code>
+<br>
+<b>default:</b> no<br></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><h4><code>plugin_reactions_limit</code></h4></td>
+    <td rowspan="2"><p>Display limit (issues and pull requests comments)</p>
+<img width="900" height="1" alt=""></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+<i>(0 ≤
+𝑥
+≤ 1000)</i>
+<br>
+<b>default:</b> 200<br></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><h4><code>plugin_reactions_limit_issues</code></h4></td>
+    <td rowspan="2"><p>Display limit (issues and pull requests, first comment)</p>
+<img width="900" height="1" alt=""></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+<i>(0 ≤
+𝑥
+≤ 1000)</i>
+<br>
+<b>default:</b> 100<br></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><h4><code>plugin_reactions_limit_discussions</code></h4></td>
+    <td rowspan="2"><p>Display limit (discussions, first comment)</p>
+<img width="900" height="1" alt=""></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+<i>(0 ≤
+𝑥
+≤ 1000)</i>
+<br>
+<b>default:</b> 100<br></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><h4><code>plugin_reactions_limit_discussions_comments</code></h4></td>
+    <td rowspan="2"><p>Display limit (discussions comments)</p>
+<img width="900" height="1" alt=""></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+<i>(0 ≤
+𝑥
+≤ 1000)</i>
+<br>
+<b>default:</b> 100<br></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><h4><code>plugin_reactions_days</code></h4></td>
+    <td rowspan="2"><p>Comments maximum age</p>
+<img width="900" height="1" alt=""></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+<i>(0 ≤
+𝑥)</i>
+<br>
+<b>zero behaviour:</b> disable</br>
+<b>default:</b> 0<br></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><h4><code>plugin_reactions_display</code></h4></td>
+    <td rowspan="2"><p>Display mode</p>
+<ul>
+<li><code>absolute</code>: scale percentages using total reactions count</li>
+<li><code>relative</code>: scale percentages using highest reaction count</li>
+</ul>
+<img width="900" height="1" alt=""></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><b>type:</b> <code>string</code>
+<br>
+<b>default:</b> absolute<br>
+<b>allowed values:</b><ul><li>absolute</li><li>relative</li></ul></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><h4><code>plugin_reactions_details</code></h4></td>
+    <td rowspan="2"><p>Additional details</p>
+<img width="900" height="1" alt=""></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><b>type:</b> <code>array</code>
+<i>(comma-separated)</i>
+<br>
+<b>allowed values:</b><ul><li>count</li><li>percentage</li></ul></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><h4><code>plugin_reactions_ignored</code></h4></td>
+    <td rowspan="2"><p>Ignored users</p>
+<p>Can be used to ignore bots activity</p>
+<img width="900" height="1" alt=""></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap">⏩ Inherits <code>users_ignored</code><br>
+<b>type:</b> <code>array</code>
+<i>(comma-separated)</i>
+<br></td>
+  </tr>
+</table>
+<!--/options-->
+
+## ℹ️ Examples workflows
+
+<!--examples-->
+```yaml
+name: Comment reactions
+uses: lowlighter/metrics@latest
+with:
+  filename: metrics.plugin.reactions.svg
+  token: ${{ secrets.METRICS_TOKEN }}
+  base: ""
+  plugin_reactions: yes
+  plugin_reactions_limit: 100
+  plugin_reactions_details: percentage
+  
+--------------------------------------------------------------------------------------------------------------------
+
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
             <section>
