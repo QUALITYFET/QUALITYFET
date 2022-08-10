@@ -2,7 +2,7 @@
 
 ![](https://komarev.com/ghpvc/?username=QUALITYFET)
 
-## I'm QA Engineer
+## I'm QA Engineer&Frontend Web Developer HTML,CSS(junior)
 
 - 👀 I’m interested in Software testing
 - 🌱 I’m currently studying Manual Testing at the SkillFactory online school
